@@ -1,0 +1,18 @@
+.calc{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  left:-400%;
+  flex-direction:row;
+  position:absolute;
+  transition:all 0.2s;
+}
+
+.calc_p{
+   width:230px;
+}
+
+.calc_exibi{
+  left:0px !important;
+  transition:all 0.2s;
+}
